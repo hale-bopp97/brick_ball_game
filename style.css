@@ -1,0 +1,61 @@
+/* Set the height of the body element to 100% */
+body{
+    height: 100%;
+    /* Use flexbox layout */
+    display: flex;
+    /* Vertically center items */
+    align-items: center;
+    /* Horizontally center items */
+    justify-content: center;
+    /* Set the background color */
+    background-color: #efefef;
+}
+
+/* Create a container for the game canvas */
+.game-container{
+    /* Position the container */
+    position: relative;
+}
+
+/* Style the game canvas */
+#game{
+    /* Make the canvas block level */
+    display: block;
+    /* Center the canvas horizontally */
+    margin: 0 auto;
+    /* Set the background color of the canvas */
+    background-color: #ccc;
+    /* Set the top margin of the canvas */
+    margin-top: 10rem;
+    /* Add a border to the canvas */
+    border: 2px solid #333;
+    /* Add border radius */
+    border-radius: 5px;
+}
+
+/* Style the start button */
+#start-button{
+    /* Position the button */
+    position: absolute;
+    /* Set the top position of the button */
+    top: 65px;
+    /* Center the button horizontally */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Set the background color of the button */
+    background-color: #333;
+    /* Remove the border of the button */
+    border: none;
+    /* Set the text color of the button */
+    color: #efefef;
+    /* Remove text decoration */
+    text-decoration: none;
+    /* Set font size */
+    font-size: 24px;
+    /* Add margin */
+    margin: 4px 2px;
+    /* Set the cursor type */
+    cursor: pointer;
+    /* Add border radius */
+    border-radius: 30px;
+}
